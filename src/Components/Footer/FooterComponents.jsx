@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './FooterComponent.css'
 export class FooterComponents extends Component {
     state = {
         date: ""
@@ -18,7 +18,7 @@ export class FooterComponents extends Component {
     return (
       <div>
           <footer className='footer'>
-              <span className='text-muted'>All Right Reserved {date}</span>
+              <span className='text-muted'>All Right Reserved <br/> {date}</span>
           </footer>
       </div>
     )
