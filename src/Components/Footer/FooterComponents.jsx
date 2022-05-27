@@ -14,7 +14,7 @@ export class FooterComponents extends Component {
         this.setState({ date });
       };
   render() {
-    const { date } = this.state;
+    const {date} = this.state;
     return (
       <div>
           <footer className='footer'>
